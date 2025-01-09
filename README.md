@@ -52,5 +52,6 @@ pip install google-auth-oauthlib google-auth-httplib2 google-api-python-client t
 
 Run the script using:
 
-bash
+```bash
 python email_to_whatsapp.py
+```
