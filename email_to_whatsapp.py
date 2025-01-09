@@ -19,13 +19,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Gmail API setup
-SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
+SCOPES = [addyourgooglereadonlyapi]
 
 # Direct configuration
-TWILIO_ACCOUNT_SID = 'ACbbf76566f82a6e3299ad12cca12a860d'
-TWILIO_AUTH_TOKEN = '1fc6a09afc047fbd69a4fd829b4b1db6'
-TWILIO_WHATSAPP_NUMBER = 'whatsapp:+14155238886'
-TO_WHATSAPP_NUMBER = 'whatsapp:+917096589655'
+TWILIO_ACCOUNT_SID = '[accountsid]'
+TWILIO_AUTH_TOKEN = '[authtoken]'
+TWILIO_WHATSAPP_NUMBER = '[twilowhatsapp nuber]'
+TO_WHATSAPP_NUMBER = '[number in which you want to recive ]'
 CHECK_INTERVAL = 1  # Changed to 1 minute for faster checking
 MAX_RETRIES = 3
 
